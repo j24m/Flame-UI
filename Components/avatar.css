@@ -1,0 +1,29 @@
+.avatar img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-xx-l img{
+    width:120px;
+    height:120px;
+}
+.avatar-x-l img{
+    width:100px;
+    height:100px;
+}
+.avatar-l img{
+    width:90px;
+    height:90px;
+}
+.avatar-m img{
+    width:80px;
+    height:80px;
+}
+.avatar-s img{
+    width:70px;
+    height:70px;
+}
+.avatar-x-s img{
+    width:80px;
+    height:80px;
+}

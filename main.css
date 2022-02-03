@@ -27,7 +27,6 @@
 }
 html{
     font-family:Roboto, sans-serif;
-    /* font-size: 62.5%; */
 }
 a{
     text-decoration:none;
@@ -40,7 +39,6 @@ a:hover{
 }
 .link-active{
     color: var(--primary-color);
-    /* text-decoration: underline; */
 }
 .fa-github-alt{
     font-size: 25px;
@@ -48,7 +46,6 @@ a:hover{
 .sidebar-docs-container{
     display: flex;
     justify-content: space-between;
-    /* border: solid red; */
 }
 .side-bar{
     padding:0 30px ;
@@ -58,9 +55,9 @@ a:hover{
     flex-grow:3;
     padding:0 20px 0 30px;
     border-left: solid var(--primary-color);
-    height:80vh;
+    height:auto;
 }
-.p-utility{
+.component-info{
     font-size: 20px;
     margin: 20px 0;
 }

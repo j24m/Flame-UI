@@ -1,0 +1,25 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    width:30%
+}
+input:focus{
+    outline:none;
+}
+
+.username{
+    padding:5px;
+    margin-bottom: 15px;
+}
+.password{
+    padding: 5px;
+}
+.label-password{
+    color:var(--dark-color)
+}
+.error-msg{
+    color : var(--dark-color);
+}
+
+

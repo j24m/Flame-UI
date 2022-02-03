@@ -1,4 +1,4 @@
-.img{
+.img-responsive{
     border-radius: 50%;
     width:90px;
     height: 90px;
@@ -7,26 +7,35 @@
 .parent{
     position:relative;
 }
-.icon-cart{
-    font-size:30px;
-}
-.icon{
-    font-size:18px;
+.common-badge-status{
+    font-size:15px;
     position:absolute;
 }
-.icon1-2{
+.badge-status-activeAndidle{
     padding:3px;
     bottom:0;
     left:60px;
     color: var(--green-shade-color2)
 }
-.icon-pink{
-    color: var(--pink-shade-color)
+.badge-status-idle{
+    color: var(--yellow-shade-color2)
 }
-.icon3{
+.icon-cart{
+    font-size:30px;
+}
+.cart-badge{
+    font-size: 20px;
     top:-10px;
     right:-10px;
     color:var(--green-shade-color1);
+}
+.badge-number{
+    position:absolute;
+    top:2px;
+    right:0.9px;
+    font-size: 15px;
+    color: var(--light-color);
+    text-align: center;
 }
 
 

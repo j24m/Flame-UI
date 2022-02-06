@@ -6,20 +6,28 @@
 }
 input:focus{
     outline:none;
+    border:1px solid var(--primary-color);
 }
 
-.username{
+.input-username{
     padding:5px;
     margin-bottom: 15px;
 }
-.password{
+.label-username{
+    font-size: 20px;
+    padding: 5px;
+}
+.input-password{
     padding: 5px;
 }
 .label-password{
-    color:var(--dark-color)
+    font-size: 20px;
+    padding:5px;
 }
 .error-msg{
+    font-size:20px;
     color : var(--dark-color);
+    padding:5px;
 }
 
 

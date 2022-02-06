@@ -21,10 +21,19 @@
     border-right:4px solid var(--dark-color);
     border-bottom:4px solid var(--dark-color);
 }
+.btn-primary:hover{
+    background-color: var(--dark-color);
+    transition: 0.4s;
+}
 .btn-secondary{
     background-color: var(--cream-shade-color);
     border-right:4px solid var(--cream-shade-color2);
-    border-bottom:4px solid var(--cream-shade-color2);
+    border-bottom:4px solid var(--cream-shade-color2);  
+    color: var(--cream-shade-color2);
+}
+.btn-secondary:hover{
+    background-color: var(--light-color);
+    transition: 0.4s;
 }
 .fa-bookmark{
     font-size: 18px;
@@ -32,6 +41,9 @@
 }
 .bookmark-label{
     margin-left: 5px;
+}
+.fa-bookmark:hover{
+   font-weight: bold;
 }
 .btn-icon{
     border-radius: 50%;

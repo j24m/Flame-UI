@@ -1,0 +1,17 @@
+.round-img{
+    border-radius: 50%;
+   
+}
+.round-square-img{
+    width:250px;
+    height: 250px;
+    object-fit: cover;
+}
+.responsive-img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+.responsive-img-container{
+    width:250px;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flame UI | Input</title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
@@ -25,16 +25,16 @@
 
     <div class="sidebar-docs-container">
         <div class="side-bar">
-            <h3>Components</h3>
+            <h3 class="sidebar-cmp-heading">Components</h3>
             <ul class="ul">
                 <a href="./avatar.html">
                     <li>Avatar</li>
                 </a>
                 <a href="./alert.html">
-                    <li>Alerts</li>
+                    <li>Alert</li>
                 </a>
                 <a href="./button.html">
-                    <li>Buttons</li>
+                    <li>Button</li>
                 </a>
                 <a href="./badge.html">
                     <li>Badge</li>
@@ -52,11 +52,19 @@
         </div>
         <div class="documentation">
                 <h1>INPUT</h1>
-                <p class="p-utility">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam qui commodi consequatur saepe dolorem itaque delectus modi laborum omnis minima! Amet ipsa aliquam non labore rerum quibusdam voluptatem natus nostrum.
+                <p class="component-info">Inputs are necessary for user interaction with the website. Inputs are used to take information from the user, and then save the data to the server, accordingly.
+
                 </p>
                 <div class="component-examples">
-                    
-        </div>
+                    <div class="input">
+                        <label class="label-username" for="input-username">Username *</label>
+                        <input class="input-username" type="text">
+                        <label class="label-password" for="input-password">Password *</label>
+                        <input class="input-password">
+                        <div class="error-msg">Wrong Password. Try Again</div>
+                    </div>
+                    </div>
+                    <div class="code-snippet"><script src="https://gist.github.com/j24m/3f6a1ae6bfd99dff3ceff22d3a5909ff.js"></script></div>
     </div>
 
 </body>

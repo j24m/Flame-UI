@@ -1,0 +1,33 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    width:30%
+}
+input:focus{
+    outline:none;
+    border:1px solid var(--primary-color);
+}
+
+.input-username{
+    padding:5px;
+    margin-bottom: 15px;
+}
+.label-username{
+    font-size: 20px;
+    padding: 5px;
+}
+.input-password{
+    padding: 5px;
+}
+.label-password{
+    font-size: 20px;
+    padding:5px;
+}
+.error-msg{
+    font-size:20px;
+    color : var(--dark-color);
+    padding:5px;
+}
+
+

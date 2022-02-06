@@ -29,17 +29,8 @@
     height: 400px;
     border-radius:10px; 
 }
-.btn-getStarted{
-    border:1px solid var(--primary-color) ;
-    border-radius: 5px;
-    margin-top: 30px;
-    font-size: 30px;
-    padding: 5px;
-}
-.btn-getStarted:hover{
-    transform:scale(1.1);
-}
-.side-bar > h3{
+
+.sidebar-cmp-heading{
     font-size: 25px;
     padding-bottom: 10px;
     width:150px;

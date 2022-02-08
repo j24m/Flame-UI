@@ -1,0 +1,16 @@
+.heading-utility,.small-textutility{
+    line-height:50px;
+    padding:10px;
+    text-shadow: 2px 2px 5px var(--light-color);
+    /* font-family: "Dancing Script"; */
+}
+.grey-text{
+    text-shadow: none;
+    font-size:40px;
+    background-color: var(--secondary-color);
+    color:gray;
+}
+.center-text{
+    text-align: center;
+}
+

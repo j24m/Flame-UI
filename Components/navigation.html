@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flame UI | Badge</title>
+    <title>Flame UI | Input</title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="./badge.css">
+    <link rel="stylesheet" href="./navigation.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                 <a href="./button.html">
                     <li>Button</li>
                 </a>
-                <a class="link-active" href="#">
+                <a href="./badge.html">
                     <li>Badge</li>
                 </a>
                 <a href="./card.html">
@@ -51,7 +51,7 @@
                 <a href="./list.html">
                     <li>List</li>
                 </a>
-                <a href="./navigation.html">
+                <a class="link-active" href="#">
                     <li>Navigation</li>
                 </a>
                 <a href="./text-utility.html">
@@ -60,28 +60,40 @@
             </ul>
         </div>
         <div class="documentation">
-            <h1>BADGE</h1>
-            <p class="component-info">Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be used to display numbers, online / offline status, depending on where they are used.
+            <h1>Navigation</h1>
+            <p class="component-info">
+                Navigation bar is used to navigate through the web apps or websites. This navigation component is
+                responsive. It is a hamburger menu in medium and small devices.
+            </p>
+            <p class="component-info">
+                <ul class="component-info">
+                    <p class="component-info">USES:<br><strong>1.</strong> Burger section- to show hamburger in M,S,XS
+                        devices, it will be hidden on L, XL devices</p>
+                    <p class="component-info"><strong>2.</strong> Brand logo- It will be displayed in L,XL devices and
+                        hidden on M,S,XS devices</p>
+                    <p class="component-info"><strong>3.</strong> Brand title- It will be displayed in M,S,XS devices
+                        and hidden on L,XL devices</p>
+                    <p class="component-info"><strong>4.</strong> Search bar. <br> <strong>etc..</strong> </p>
+                </ul>
+
             </p>
             <div class="component-examples">
-                <div class="badges">
-                    <div class="parent">
-                        <img class="img-responsive img1" src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <i class="common-badge-status badge-status-activeAndidle fas fa-circle"></i>
+                <div class="navigation">
+                    <div class="left-of-nav">
+                        <div class="nav-logo">Flame</div>
+                        <a href="#" class="navigation-links nav-home-shopnow-icons">Home</a>
+                        <a href="#" class="navigation-links nav-home-shopnow-icons">Shop Now</a>    
                     </div>
-                    <div class="parent">
-                        <img class="img-responsive img2" src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <i class="common-badge-status badge-status-idle badge-status-activeAndidle fas fa-circle"></i>
-                    </div>
-                    <div class=" parent">
-                        <i class="icon-cart fas fa-shopping-cart"></i>
-                        <i class="common-badge-status cart-badge fas fa-circle"><span class="common-badge-status cart-badge badge-number">9+</span></i>
+                    
+                    <div class="right-of-nav">
+                        <input class="nav-searchbar" placeholder="🔍search" type="text">
+                        <a class="navigation-links" href="#"><i class="nav-home-shopnow-icons fas fa-heart"></i></a>
+                        <a class="navigation-links" href="#"><i class="nav-home-shopnow-icons fas fa-shopping-bag"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="code-snippet"><script src="https://gist.github.com/j24m/7ca99e6412c73ebacf6cfc32feacceac.js"></script></div>
+            <div class="code-snippet"><script src="https://gist.github.com/j24m/cf119484bbf05efc525796152814001d.js"></script></div>
         </div>
-    </div>
 
 </body>
 

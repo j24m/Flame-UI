@@ -14,11 +14,12 @@
     --blue-shade-color2 : #003399;
     --pink-shade-color : rgb(231, 64, 92) ;
     --red-shade-color: #f7786b;
-    --cream-shade-color: #ffef96;
+    --cream-shade-color:#ffef96;
     --cream-shade-color2:#8b6f47;
     --button-primary-color1:#e0876a;
     --button-primary-color2:#f4a688;
     --button-floatHover-color:#292F33;
+    --card-boxshadow-color : #686256;
     
 }
 *{

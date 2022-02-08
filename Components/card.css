@@ -1,0 +1,170 @@
+.card{
+ position:relative;   
+ background-color: var(--light-color);
+ border:1px solid var(--button-floatHover-color);
+ width:300px;
+ /* height:500px; */
+ padding:10px;
+ border-radius:5px;
+ box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+}
+.dismiss-badge{
+    position:absolute;
+    top:5px;
+    right:8px;
+    background-color: var(--card-boxshadow-color);
+    border-radius:50%;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    padding:3px;
+    font-size: 20px;
+    color: var(--light-color);
+}
+.dismiss-badge:hover{
+    transform: scale(1.1);
+    background-color: var(--button-floatHover-color);
+    cursor:pointer;
+
+}
+
+.card-heading{
+    padding:10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.card-description{
+    font-weight: 400;
+    color: var(--button-floatHover-color);
+    padding:10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.catwoman-powerpuffgirls-img{
+    width:100%;
+    object-fit: cover;
+    max-inline-size: 100%;
+    object-position: center;
+    block-size: auto;
+    /* aspect-ratio: 4/3; */
+}
+.e-commerce-card{
+  /* border:10px solid black ; */
+  position: relative;
+  border:1px solid var(--button-floatHover-color);
+  width:300px;
+  height:410px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--light-color);
+  padding:5px;
+  box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+}
+.e-commerce-card:hover{
+    transform:scale(1.01);
+    transition:0.1s;
+}
+.mech-keyboard-img-container{
+    width:100%;
+    height:200px;
+    margin-top: 5px;
+}
+.mech-keyboard-img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    /* object-position: center; */
+    /* max-inline-size: 100%; */
+    /* aspect-ratio: 1/1; */
+
+}
+.ecom-card-info{
+    margin:5px;
+}
+.keyboard-name-heading{
+    font-size: 24px;
+    margin-bottom:10px;
+}
+.rate-review{
+    display: flex;
+    gap:10px;
+    align-items:baseline;
+    margin-bottom: 10px;
+    font-weight:400;
+}
+.rate{
+    font-size: 15px;
+}
+.review{
+    font-size: 12px;
+}
+.keyboard-prices{
+    display: flex;
+    align-items: baseline;
+    gap:10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.total-price{
+    font-size: 11px;
+}
+.btn-add2cart-buynow{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap:10px;
+    height:50px;
+    /* border:solid black; */
+
+
+}
+.btn{
+    padding:5px;
+    flex-grow: 1;
+    font-size:18px;
+    color:var(--light-color);
+    background-color: var(--button-floatHover-color);
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    transition:0.2s;
+    transform:scale(1.1);
+    background-color: var(--secondary-color);
+}
+.badge-on-card{
+    position:absolute;
+    width:30%;
+    text-align: center;
+    background-color: var(--dark-color);
+    color:var(--light-color);
+    font-weight: 500;
+    top:1;
+    right:0;
+    font-size: 12px;
+    padding:2px;
+}
+.out-of-stock-card{
+position:relative;
+}
+.disable-card{
+    /* border:solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    /* width:40.4vh; */
+    /* height: 55vh; */
+    width:100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.outofstock-badge{
+    font-size:30px;
+}
+
+
+
+

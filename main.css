@@ -20,6 +20,7 @@
     --button-primary-color2:#f4a688;
     --button-floatHover-color:#292F33;
     --card-boxshadow-color : #686256;
+    --blur-white-shade-color: rgba(255,255,255,0.5);
     
 }
 *{

@@ -1,11 +1,31 @@
 .card{
+ position:relative;   
  background-color: var(--light-color);
  border:1px solid var(--button-floatHover-color);
  width:300px;
  /* height:500px; */
  padding:10px;
  border-radius:5px;
- box-shadow:2px 2px 5px 2px var(--button-floatHover-color);
+ box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+}
+.dismiss-badge{
+    position:absolute;
+    top:5px;
+    right:8px;
+    background-color: var(--card-boxshadow-color);
+    border-radius:50%;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    padding:3px;
+    font-size: 20px;
+    color: var(--light-color);
+}
+.dismiss-badge:hover{
+    transform: scale(1.1);
+    background-color: var(--button-floatHover-color);
+    cursor:pointer;
+
 }
 
 .card-heading{
@@ -31,15 +51,16 @@
     /* aspect-ratio: 4/3; */
 }
 .e-commerce-card{
+  /* border:10px solid black ; */
   position: relative;
   border:1px solid var(--button-floatHover-color);
-  width:250px;
+  width:300px;
   height:410px;
   border-radius: 5px;
   overflow: hidden;
   background-color: var(--light-color);
   padding:5px;
-  box-shadow:2px 2px 5px 2px var(--button-floatHover-color);
+  box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
 }
 .e-commerce-card:hover{
     transform:scale(1.01);
@@ -49,19 +70,15 @@
     width:100%;
     height:200px;
     margin-top: 5px;
-    border:solid black;
 }
 .mech-keyboard-img{
     width:100%;
-    height: 100%;
-    border:solid red;
+    height:100%;
     object-fit: contain;
-    /* height:100%;
-    max-inline-size: 100%;
-    object-fit: cover;
-    object-position:bottom;
-     */
-    /* block-size: auto; */ */
+    /* object-position: center; */
+    /* max-inline-size: 100%; */
+    /* aspect-ratio: 1/1; */
+
 }
 .ecom-card-info{
     margin:5px;
@@ -98,17 +115,21 @@
     justify-content: space-between;
     align-items: end;
     gap:10px;
-    height:50%;
+    height:50px;
+    /* border:solid black; */
+
+
 }
 .btn{
     padding:5px;
     flex-grow: 1;
-    font-size:15px;
+    font-size:18px;
     color:var(--light-color);
     background-color: var(--button-floatHover-color);
     border-radius: 5px;
 }
 .btn:hover{
+    cursor: pointer;
     transition:0.2s;
     transform:scale(1.1);
     background-color: var(--secondary-color);
@@ -125,7 +146,24 @@
     font-size: 12px;
     padding:2px;
 }
-
+.out-of-stock-card{
+position:relative;
+}
+.disable-card{
+    /* border:solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    /* width:40.4vh; */
+    /* height: 55vh; */
+    width:100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.outofstock-badge{
+    font-size:30px;
+}
 
 
 

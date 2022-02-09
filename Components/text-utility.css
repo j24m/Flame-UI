@@ -1,0 +1,14 @@
+.heading-utility,.small-textutility{
+    line-height:50px;
+    padding:10px;
+}
+.grey-text{
+    text-shadow: none;
+    font-size:40px;
+    background-color: var(--secondary-color);
+    color:var(--text-gray-color);
+}
+.center-text{
+    text-align: center;
+}
+

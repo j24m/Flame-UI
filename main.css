@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400;500;700&display=swap');
 :root{
     --primary-color :#F65314;
     --secondary-color :black;
@@ -21,6 +21,7 @@
     --button-floatHover-color:#292F33;
     --card-boxshadow-color : #686256;
     --blur-white-shade-color: rgba(255,255,255,0.5);
+    --text-gray-color : gray; 
     
 }
 *{
@@ -50,11 +51,12 @@ a:hover{
     justify-content: space-between;
 }
 .side-bar{
+    min-width:200px;
     padding:0 30px ;
-    flex: 1;
+    /* flex: 1 */
 }
 .documentation{
-    flex-grow:3;
+    flex-grow:1;
     padding:0 20px 0 30px;
     border-left: solid var(--primary-color);
     height:auto;

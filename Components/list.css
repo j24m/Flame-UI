@@ -1,0 +1,39 @@
+.unordered-ordered-lists{
+    color: var(--light-color);
+    font-size: 20px;
+    margin:50px;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.notif-each{
+    width:800px;
+    margin: 10px;
+    background-color: var(--light-color);
+    border-radius:5px; 
+    padding:10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    box-shadow:4px 2px 5px var(--card-boxshadow-color);
+}
+.icon-heading-container{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    gap:10px;
+}
+.notif-heading{
+    font-size:15px;
+}
+.icon-text{
+    color:var(--card-boxshadow-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.notif-icon{
+    color: var(--button-floatHover-color);
+}

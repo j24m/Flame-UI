@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flame UI | List</title>
+    <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../gist.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./list.css">
+    <link rel="stylesheet" href="../components.css">
+</head>
+
+<body>
+    <div class="nav-container">
+        <h1 class="nav-header">FLAME UI</h1>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a class="link-active" href="./avatar.html">Documentation</a>
+            <a href="https://github.com/j24m"><i class="fab fa-github-alt"></i></a>
+        </div>
+    </div>
+
+    <div class="sidebar-docs-container">
+        <div class="side-bar">
+            <h3 class="sidebar-cmp-heading">Components</h3>
+            <ul class="ul">
+                <a href="./avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="./alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="./button.html">
+                    <li>Button</li>
+                </a>
+                <a href="./badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="./card.html">
+                    <li>Card</li>
+                </a>
+                <a href="./image.html">
+                    <li>Image</li>
+                </a>
+                <a href="./input.html">
+                    <li>Input</li>
+                </a>
+                <a class="link-active" href="#">
+                    <li>List</li>
+                </a>
+                <a href="./navigation.html">
+                    <li>Navigation</li>
+                </a>
+                <a href="./text-utility.html">
+                    <li>Text-Utility</li>
+                </a>
+            </ul>
+        </div>
+        <div class="documentation">
+            <h1>List</h1>
+            <p class="component-info">
+                Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.
+            </p>
+            <h3>Unordered Lists :</h3>
+            <div class="component-examples">
+
+                <ul class="unordered-ordered-lists">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ul>
+                <ul class="unordered-ordered-lists" type="circle">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ul>
+                <ul class="unordered-ordered-lists" type="square">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ul>
+
+            </div>
+
+            <div class="code-snippet">
+                <script src="https://gist.github.com/j24m/59726c0eea75074a46396a95776b4022.js"></script>
+            </div>
+
+            <h3>Ordered Lists:</h3>
+
+            <div class="component-examples">
+
+                <ol class="unordered-ordered-lists">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ol>
+                <ol class="unordered-ordered-lists" type="a">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ol>
+                <ol class="unordered-ordered-lists" type="A">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ol>
+                <ol class="unordered-ordered-lists" type="I">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ol>
+                <ol class="unordered-ordered-lists" type="i">
+                    <li>Html</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Css</li>
+                </ol>
+            </div>
+            <h2 class="component-info">Stacked Notification list</h2>
+            <div class="component-examples">
+                <div>
+                    <ul class=" notification-all">
+
+                        <li class="notif-each">
+                            <div class="avatar avatar-x-sm">
+                                <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
+                            </div>
+                            <div class="icon-heading-container">
+                                <h2 class="notif-heading">neoG_Camp wants to be your friend.</h2>
+                                <small class="icon-text">
+                                    <i class="notif-icon fas fa-user-plus"></i>
+                                    2 mins ago.
+                                </small>
+                            </div>
+                        </li>
+                        <li class="notif-each">
+                            <div class="avatar avatar-x-sm">
+                                <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
+                            </div>
+                            <div class="icon-heading-container">
+                                <h2 class="notif-heading">neoG_Camp liked your post.</h2>
+                                <small class="icon-text">
+                                    <i class="notif-icon fas fa-heart"></i> 2 mins ago.
+                                </small>
+                            </div>
+                        </li>
+                        <li class="notif-each">
+                            <div class="avatar avatar-x-sm">
+                                <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
+                            </div>
+                            <div class="icon-heading-container">
+                                <h2 class="notif-heading">neoG_Camp commented on your post.</h2>
+                                <small class="icon-text">
+                                    <i class="notif-icon fas fa-comment-alt">
+                                    </i>
+                                    2 mins ago.
+                                </small>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="code-snippet">
+                <script src="https://gist.github.com/j24m/0d18d79eb115d16aff97a79e4b6f7745.js"></script>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -5,27 +5,27 @@
 }
 
 .avatar-xx-lg img{
-    width:120px;
-    height:120px;
+    width:12rem;
+    height:12rem;
 }
 .avatar-x-lg img{
-    width:100px;
-    height:100px;
+    width:10rem;
+    height:10rem;
 }
 .avatar-lg img{
-    width:90px;
-    height:90px;
+    width:9rem;
+    height:9rem;
 }
 .avatar-md img{
-    width:80px;
-    height:80px;
+    width:8rem;
+    height:8rem;
 }
 .avatar-sm img{
-    width:70px;
-    height:70px;
+    width:7rem;
+    height:7rem;
 }
 .avatar-x-sm img{
-    width:50px;
-    height:50px;
+    width:5rem;
+    height:5rem;
 }
 

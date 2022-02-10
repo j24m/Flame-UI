@@ -2,43 +2,41 @@
  position:relative;   
  background-color: var(--light-color);
  border:1px solid var(--button-floatHover-color);
- width:300px;
- padding:10px;
- border-radius:5px;
- box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+ width:30rem;
+ padding:1rem;
+ border-radius:0.5rem;
+ box-shadow:0.2rem 0.2rem 0.5rem 0.2rem var(--card-boxshadow-color);
 }
 .dismiss-badge{
     position:absolute;
-    top:5px;
-    right:8px;
+    top:0.5rem;
+    right:0.8rem;
     background-color: var(--card-boxshadow-color);
     border-radius:50%;
-    width:25px;
-    height: 25px;
+    width:2.5rem;
+    height: 2.5rem;
     text-align: center;
-    padding:3px;
-    font-size: 20px;
+    padding:0.1rem;
+    font-size: 1.8rem;
     color: var(--light-color);
 }
 .dismiss-badge:hover{
-    transform: scale(1.1);
     background-color: var(--button-floatHover-color);
     cursor:pointer;
-
+    transition: 0.5s;
 }
-
 .card-heading{
-    padding:10px;
+    padding:1rem;
     font-weight: 500;
-    margin-bottom: 5px;
-    font-size: 30px;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
 }
 .card-description{
     font-weight: 400;
     color: var(--button-floatHover-color);
-    padding:10px;
-    line-height: 20px;
-    font-size: 16px;
+    padding:1rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
 }
 
 .catwoman-powerpuffgirls-img{
@@ -50,14 +48,14 @@
 }
 .e-commerce-card{
   position: relative;
-  border:1px solid var(--button-floatHover-color);
-  width:300px;
-  height:410px;
-  border-radius: 5px;
+  border:0.1rem solid var(--button-floatHover-color);
+  width:30rem;
+  height:41rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   background-color: var(--light-color);
-  padding:5px;
-  box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+  padding:0.5rem;
+  box-shadow:0.2rem 0.2rem 0.5rem 0.2rem var(--card-boxshadow-color);
 }
 .e-commerce-card:hover{
     transform:scale(1.01);
@@ -65,8 +63,8 @@
 }
 .mech-keyboard-img-container{
     width:100%;
-    height:200px;
-    margin-top: 5px;
+    height:20rem;
+    margin-top: 0.5rem;
 }
 .mech-keyboard-img{
     width:100%;
@@ -74,51 +72,51 @@
     object-fit: contain;
 }
 .ecom-card-info{
-    margin:5px;
+    margin:0.5rem;
 }
 .keyboard-name-heading{
-    font-size: 24px;
-    margin-bottom:10px;
+    font-size: 2.4rem;
+    margin-bottom:1rem;
 }
 .rate-review{
     display: flex;
-    gap:10px;
+    gap:1rem;
     align-items:baseline;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     font-weight:400;
 }
 .rate{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .review{
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 .keyboard-prices{
     display: flex;
     align-items: baseline;
-    gap:10px;
+    gap:1rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .total-price{
-    font-size: 11px;
+    font-size: 1.1rem;
 }
 .btn-add2cart-buynow{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    gap:10px;
-    height:50px;
+    gap:1rem;
+    height:5rem;
 }
-.btn{
-    padding:5px;
+.e-commerce-card .btn{
+    padding:0.5rem;
     flex-grow: 1;
-    font-size:18px;
+    font-size:1.8rem;
     color:var(--light-color);
     background-color: var(--button-floatHover-color);
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
-.btn:hover{
+.e-commerce-card .btn:hover{
     cursor: pointer;
     transition:0.2s;
     transform:scale(1.1);
@@ -133,8 +131,8 @@
     font-weight: 500;
     top:1;
     right:0;
-    font-size: 12px;
-    padding:2px;
+    font-size: 1.2rem;
+    padding:0.2rem;
 }
 .out-of-stock-card{
 position:relative;
@@ -149,7 +147,9 @@ position:relative;
     background-color: var(--blur-white-shade-color);
 }
 .outofstock-badge{
-    font-size:30px;
+    font-size:3rem;
+    background-color:var(--text-gray-color) ;
+    padding:1rem;
 }
 
 

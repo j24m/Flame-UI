@@ -1,18 +1,17 @@
 .alerts{
-    padding: 10px;
+    padding: 1rem;
 }
 .alert{
-    /* border:solid black; */
-    margin:10px;
-    padding:15px;
+    margin:1rem;
+    padding:1.5rem;
     font-weight: 700;
-    color: var(--light-color);
-    border-radius: 10px;
-    width:500px;
+    border-radius: 0.5rem;
+    width:50rem;
+    font-size:1.5rem;
 }
 .primary-alert{
  background-color: var(--blue-shade-color1);
- border-bottom: solid var(--blue-shade-color2)
+ border-bottom: solid var(--blue-shade-color2);
 }
 .error-alert{
     background-color:var(--red-shade-color);

@@ -1,33 +1,38 @@
 .input{
     display: flex;
     flex-direction: column;
-    padding:15px;
-    width:30%
+    padding:1.5rem;
+    width:30%;
+}
+.input input{
+    border-radius: 0.5rem;
+    border:0.1rem solid var(--primary-color); 
+    padding:1rem;
 }
 input:focus{
     outline:none;
-    border:1px solid var(--primary-color);
+    border:0.3rem solid var(--blue-shade-color2);
 }
 
 .input-username{
-    padding:5px;
-    margin-bottom: 15px;
+    padding:0.5rem;
+    margin-bottom: 1.5rem;
 }
 .label-username{
-    font-size: 20px;
-    padding: 5px;
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 .input-password{
-    padding: 5px;
+    padding: 0.5rem;
 }
 .label-password{
-    font-size: 20px;
-    padding:5px;
+    font-size: 2rem;
+    padding:0.5rem;
 }
 .error-msg{
-    font-size:20px;
+    font-size:2rem;
     color : var(--dark-color);
-    padding:5px;
+    padding:0.5rem;
 }
 
 

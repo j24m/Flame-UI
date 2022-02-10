@@ -1,38 +1,39 @@
 .unordered-ordered-lists{
     color: var(--light-color);
-    font-size: 20px;
-    margin:50px;
+    font-size: 2rem;
+    margin:5rem;
     font-family: monospace;
     font-weight: 900;
 }
 
 .notif-each{
-    width:800px;
-    margin: 10px;
+    width:80rem;
+    margin: 1rem;
     background-color: var(--light-color);
-    border-radius:5px; 
-    padding:10px;
+    border-radius:0.5rem; 
+    padding:1rem;
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    gap: 10px;
-    box-shadow:4px 2px 5px var(--card-boxshadow-color);
+    gap: 1rem;
+    box-shadow:0.4rem 0.2rem 0.5rem var(--card-boxshadow-color);
 }
 .icon-heading-container{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
-    gap:10px;
+    gap:1rem;
 }
 .notif-heading{
-    font-size:15px;
+    font-size:1.8rem;
 }
 .icon-text{
     color:var(--card-boxshadow-color);
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
+    font-size: 1.5rem;
 }
 .notif-icon{
     color: var(--button-floatHover-color);

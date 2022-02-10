@@ -1,14 +1,16 @@
 .heading-utility,.small-textutility{
-    line-height:50px;
-    padding:10px;
+    line-height:5rem;
+    padding:1rem;
+    font-size: 2rem;
 }
 .grey-text{
     text-shadow: none;
-    font-size:40px;
+    font-size:4rem;
     background-color: var(--secondary-color);
     color:var(--text-gray-color);
 }
 .center-text{
     text-align: center;
+    font-size: 2rem;
 }
 

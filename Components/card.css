@@ -1,157 +1,231 @@
-.card{
- position:relative;   
- background-color: var(--light-color);
- border:1px solid var(--button-floatHover-color);
- width:30rem;
- padding:1rem;
- border-radius:0.5rem;
- box-shadow:0.2rem 0.2rem 0.5rem 0.2rem var(--card-boxshadow-color);
+/* Simple and Image Cards */
+.card {
+    position: relative;
+    background-color: var(--light-color);
+    border: 1px solid var(--button-floatHover-color);
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px 2px var(--card-boxshadow-color);
 }
-.dismiss-badge{
-    position:absolute;
-    top:0.5rem;
-    right:0.8rem;
+
+.dismiss-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.8rem;
     background-color: var(--card-boxshadow-color);
-    border-radius:50%;
-    width:2.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
     height: 2.5rem;
     text-align: center;
-    padding:0.1rem;
+    padding: 0.1rem;
     font-size: 1.8rem;
     color: var(--light-color);
 }
-.dismiss-badge:hover{
+
+.dismiss-badge:hover {
     background-color: var(--button-floatHover-color);
-    cursor:pointer;
+    cursor: pointer;
     transition: 0.5s;
 }
-.card-heading{
-    padding:1rem;
+
+.card-heading {
+    padding: 1rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
     font-size: 3rem;
 }
-.card-description{
+
+.card-description {
     font-weight: 400;
     color: var(--button-floatHover-color);
-    padding:1rem;
+    padding: 1rem;
     line-height: 2rem;
     font-size: 1.6rem;
 }
 
-.catwoman-powerpuffgirls-img{
-    width:100%;
+.catwoman-powerpuffgirls-img {
+    width: 100%;
     object-fit: cover;
     max-inline-size: 100%;
     object-position: center;
     block-size: auto;
 }
-.e-commerce-card{
-  position: relative;
-  border:0.1rem solid var(--button-floatHover-color);
-  width:30rem;
-  height:41rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  background-color: var(--light-color);
-  padding:0.5rem;
-  box-shadow:0.2rem 0.2rem 0.5rem 0.2rem var(--card-boxshadow-color);
+
+/* E-commerce Vertical Cards */
+
+.e-commerce-card {
+    position: relative;
+    border: 0.1rem solid var(--button-floatHover-color);
+    width: 30rem;
+    height: 40rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: var(--light-color);
+    padding: 2rem;
+    box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
 }
-.e-commerce-card:hover{
-    transform:scale(1.01);
-    transition:0.1s;
+
+.mech-keyboard-img-container {
+    width: 100%;
+    height: 20rem;
 }
-.mech-keyboard-img-container{
-    width:100%;
-    height:20rem;
-    margin-top: 0.5rem;
-}
-.mech-keyboard-img{
-    width:100%;
-    height:100%;
+
+.mech-keyboard-img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
+
 .ecom-card-info{
+    padding:1rem;
     margin:0.5rem;
 }
-.keyboard-name-heading{
+
+.keyboard-name-heading {
+    overflow: hidden;
     font-size: 2.4rem;
-    margin-bottom:1rem;
-}
-.rate-review{
-    display: flex;
-    gap:1rem;
-    align-items:baseline;
     margin-bottom: 1rem;
-    font-weight:400;
 }
-.rate{
+
+.rate-review {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.rate {
     font-size: 1.5rem;
 }
-.review{
+
+.star-symbol {
+    font-size: 1.7rem;
+    color: var(--yellow-shade-color);
+}
+
+.review {
     font-size: 1.2rem;
 }
-.keyboard-prices{
+
+.icon-wishlist {
+    width: 50%;
+    text-align: right;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.icon-wishlist-link {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.icon-wishlist-link .fa-heart {
+    border-radius: 50%;
+    border: 2px solid var(--tertiary-color);
+    padding: 1rem;
+    transition: 1s ease-in-out;
+}
+
+.icon-wishlist-link .fa-heart:hover {
+    transform: rotate(360deg);
+}
+
+.keyboard-prices {
+    font-size: 1.6rem;
     display: flex;
     align-items: baseline;
-    gap:1rem;
+    gap: 1rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.total-price{
-    font-size: 1.1rem;
+
+.total-price {
+    font-size: 1.5rem;
 }
-.btn-add2cart-buynow{
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap:1rem;
-    height:5rem;
+
+.e-commerce-card .buttons .btn,
+.horizontal-card .buttons .btn {
+    width: 100%;
 }
-.e-commerce-card .btn{
-    padding:0.5rem;
-    flex-grow: 1;
-    font-size:1.8rem;
-    color:var(--light-color);
-    background-color: var(--button-floatHover-color);
-    border-radius: 0.5rem;
-}
-.e-commerce-card .btn:hover{
-    cursor: pointer;
-    transition:0.2s;
-    transform:scale(1.1);
-    background-color: var(--secondary-color);
-}
-.badge-on-card{
-    position:absolute;
-    width:30%;
+
+.badge-on-card {
+    position: absolute;
+    width: 25%;
     text-align: center;
     background-color: var(--dark-color);
-    color:var(--light-color);
+    color: var(--light-color);
     font-weight: 500;
-    top:1;
-    right:0;
-    font-size: 1.2rem;
-    padding:0.2rem;
+    top: 1;
+    right: 0;
+    font-size: 1.6rem;
+    padding: 1rem;
 }
-.out-of-stock-card{
-position:relative;
+
+.out-of-stock-card {
+    padding: 2rem;
+    position: relative;
 }
-.disable-card{
+
+.disable-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
-    width:100%;
-    height:100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-color: var(--blur-white-shade-color);
 }
-.outofstock-badge{
-    font-size:3rem;
-    background-color:var(--text-gray-color) ;
-    padding:1rem;
+
+.outofstock-badge {
+    position: absolute;
+    font-size: 2rem;
+    background-color: var(--tertiary-color);
+    padding: 1rem;
+    top: 0;
+    left: -20px;
 }
 
+/* E-commerce Horizontal Cards */
 
+.horizontal-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--button-floatHover-color);
+    border-radius: 0.5rem;
+    height: 20rem;
+    width: 60%;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+}
 
+.horizontal-card .card-img-container {
+    width: 25rem;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
 
+.horizontal-card .card-img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    max-inline-size: 100%;
+}
+
+.horizontal-card .card-body {
+    width: 60%;
+    height: 90%;
+    line-height: 3rem;
+    padding: 1rem;
+
+}
+
+.horizontal-card .buttons {
+    display: flex;
+    align-items: flex-end;
+    height: 32%;
+}

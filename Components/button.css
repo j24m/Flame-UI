@@ -2,7 +2,7 @@
     border: none;
     padding: 1rem;
     font-size: 1.6rem;
-    border-radius: 0.5rem;
+    border-radius: 5px;
 }
 
 .btn:hover {

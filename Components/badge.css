@@ -1,41 +1,65 @@
-.img-responsive{
+.badge-container .avatar {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    border: solid var(--light-color);
     border-radius: 50%;
-    width:9rem;
-    height: 9rem;
-    object-fit: cover;
 }
-.parent{
-    position:relative;
+
+.badge-active {
+    bottom: 0.5rem;
+    right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--green-shade-color2);
 }
-.common-badge-status{
-    font-size:2rem;
-    position:absolute;
+
+.badge-dnd {
+    bottom: 0;
+    right: 0.5rem;
+    height: 1.4rem;
+    width: 1.4rem;
+    background-color: var(--dark-color);
 }
-.badge-status-activeAndidle{
-    padding:0.3rem;
-    bottom:0;
-    left:6rem;
-    color: var(--green-shade-color2)
+
+.badge-idle {
+    bottom: 0;
+    right: 0.4rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--yellow-shade-color2);
 }
-.badge-status-idle{
-    color: var(--yellow-shade-color2)
+
+.badge-on-icon {
+    position: relative;
+    padding: 1rem;
+
 }
-.icon-cart{
-    font-size:3rem;
+
+.bi-whatsapp {
+    color: var(--green-shade-color2);
 }
-.cart-badge{
-    font-size: 2rem;
-    top:-1rem;
-    right:-1rem;
-    color:var(--dark-color);
+
+.bi-envelope-fill {
+    color: var(--blue-shade-color1);
 }
-.badge-number{
-    position:absolute;
-    top:2px;
-    right:0.9px;
-    font-size: 1.5rem;
-    color: var(--light-color);
+
+.badge-container .bi {
+    font-size: 3rem;
+}
+
+.badge-icon {
+    border:none;
+    position: absolute;
+    padding:2px;
     text-align: center;
+    font-size: 13.9px;
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    height: 2rem;
+    width: 2rem;
+    top:0rem;
+    right:-3px;
 }
-
-

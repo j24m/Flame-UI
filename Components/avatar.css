@@ -1,31 +1,35 @@
-.avatar img{
+.avatar img {
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--primary-color)
 }
 
-.avatar-xx-lg img{
-    width:12rem;
-    height:12rem;
-}
-.avatar-x-lg img{
-    width:10rem;
-    height:10rem;
-}
-.avatar-lg img{
-    width:9rem;
-    height:9rem;
-}
-.avatar-md img{
-    width:8rem;
-    height:8rem;
-}
-.avatar-sm img{
-    width:7rem;
-    height:7rem;
-}
-.avatar-x-sm img{
-    width:5rem;
-    height:5rem;
+.avatar-xx-lg img {
+    width: 12rem;
+    height: 12rem;
 }
 
+.avatar-x-lg img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.avatar-lg img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.avatar-md img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.avatar-sm img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.avatar-x-sm img {
+    width: 5rem;
+    height: 5rem;
+}

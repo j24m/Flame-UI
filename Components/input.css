@@ -1,38 +1,35 @@
-.input{
+.input-container{
     display: flex;
-    flex-direction: column;
-    padding:1.5rem;
-    width:30%;
-}
-.input input{
-    border-radius: 0.5rem;
-    border:0.1rem solid var(--primary-color); 
-    padding:1rem;
-}
-input:focus{
-    outline:none;
-    border:0.3rem solid var(--blue-shade-color2);
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    gap:3rem;
+    justify-content: center;
+    align-items:baseline;
 }
 
-.input-username{
-    padding:0.5rem;
-    margin-bottom: 1.5rem;
+.input-label{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
 }
-.label-username{
-    font-size: 2rem;
-    padding: 0.5rem;
+
+.input-container input{
+    padding:1rem;
+    width:20rem;
+    border-radius: 0.5rem;
+    border:1px solid var(--secondary-color);
 }
-.input-password{
-    padding: 0.5rem;
+
+.input-container input:focus{
+    border: 3px solid var(--secondary-color);
 }
-.label-password{
-    font-size: 2rem;
-    padding:0.5rem;
+
+.input-label [for|="password"],.input-label [type|="password"]{
+    color:var(--dark-color);
 }
-.error-msg{
-    font-size:2rem;
-    color : var(--dark-color);
-    padding:0.5rem;
-}
+
+
+
+
 
 

@@ -1,16 +1,12 @@
-.heading-utility,.small-textutility{
-    line-height:5rem;
-    padding:1rem;
+.heading-utility{
     font-size: 2rem;
 }
-.grey-text{
-    text-shadow: none;
-    font-size:4rem;
-    background-color: var(--secondary-color);
-    color:var(--text-gray-color);
+.para-txt-utility{
+    font-size: 2rem;
+}
+.gray-text{
+    color:var(--tertiary-color);
 }
 .center-text{
     text-align: center;
-    font-size: 2rem;
 }
-

@@ -1,12 +1,13 @@
-.home-page-content{
+.home-page-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .header-text-animation {
-    font-family:"Dancing Script";
-    margin-top:15rem;
+    font-family: "Dancing Script";
+    margin-top: 15rem;
     font-size: 15rem;
     font-weight: 900;
     background: linear-gradient(to right, #F65314 10%, #65009E 30%, #FF9900 50%, #a70327 70%, #f031f0 90%);
@@ -23,31 +24,33 @@
         background-position: 200% center;
     }
 }
-.home-page-subheading{
+
+.home-page-subheading {
     font-size: 4rem;
-    padding:2rem;
+    padding: 2rem;
     color: var(--primary-color);
     margin-bottom: 2rem;
 }
-.btn-getstarted{
+
+.btn-homepage {
+    display: flex;
+    gap: 2rem;
     padding:2rem;
-    width:20rem;
+}
+
+.btn-getstarted {
+    padding: 2rem;
+    width: 20rem;
     border-radius: 0.5rem;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     border: solid var(--primary-color)
 }
-.btn-getstarted .homepage-btn-link{
-    color:var(--primary-color);
+
+.btn-getstarted .link{
+    color: var(--primary-color);
 }
-.btn-getstarted:hover{
+
+.btn-getstarted:hover {
     transform: scale(1.01);
     cursor: pointer;
 }
-
-
-
-
-
-
-
-

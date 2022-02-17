@@ -5,7 +5,7 @@
     border: 1px solid var(--button-floatHover-color);
     width: 30rem;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     box-shadow: 2px 2px 5px 2px var(--card-boxshadow-color);
 }
 
@@ -18,7 +18,7 @@
     width: 2.5rem;
     height: 2.5rem;
     text-align: center;
-    padding: 0.1rem;
+    padding: 1px;
     font-size: 1.8rem;
     color: var(--light-color);
 }
@@ -54,19 +54,38 @@
 
 /* E-commerce Vertical Cards */
 
-.e-commerce-card {
+.e-commerce-card,
+.out-of-stock-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    border: 0.1rem solid var(--button-floatHover-color);
+    border: 1px solid var(--button-floatHover-color);
     width: 30rem;
     height: 40rem;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     overflow: hidden;
     background-color: var(--light-color);
-    padding: 2rem;
-    box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+    box-shadow: 2px 2px 5px 2px var(--card-boxshadow-color);
+    padding: 1rem;
+}
+
+.badge-on-card {
+    position: absolute;
+    width: 25%;
+    text-align: center;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-weight: 500;
+    top: 0;
+    right: 0;
+    font-size: 1.6rem;
+    padding: 1rem;
 }
 
 .mech-keyboard-img-container {
+    padding: 1rem;
     width: 100%;
     height: 20rem;
 }
@@ -77,13 +96,7 @@
     object-fit: contain;
 }
 
-.ecom-card-info{
-    padding:1rem;
-    margin:0.5rem;
-}
-
 .keyboard-name-heading {
-    overflow: hidden;
     font-size: 2.4rem;
     margin-bottom: 1rem;
 }
@@ -109,6 +122,19 @@
     font-size: 1.2rem;
 }
 
+.keyboard-prices {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.total-price {
+    font-size: 1.4rem;
+}
+
 .icon-wishlist {
     width: 50%;
     text-align: right;
@@ -132,46 +158,12 @@
     transform: rotate(360deg);
 }
 
-.keyboard-prices {
-    font-size: 1.6rem;
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.total-price {
-    font-size: 1.5rem;
-}
-
 .e-commerce-card .buttons .btn,
 .horizontal-card .buttons .btn {
     width: 100%;
 }
 
-.badge-on-card {
-    position: absolute;
-    width: 25%;
-    text-align: center;
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    font-weight: 500;
-    top: 1;
-    right: 0;
-    font-size: 1.6rem;
-    padding: 1rem;
-}
-
-.out-of-stock-card {
-    padding: 2rem;
-    position: relative;
-}
-
 .disable-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -184,29 +176,28 @@
     background-color: var(--tertiary-color);
     padding: 1rem;
     top: 0;
-    left: -20px;
+    left: -1rem;
 }
 
 /* E-commerce Horizontal Cards */
 
 .horizontal-card {
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid var(--button-floatHover-color);
-    border-radius: 0.5rem;
+    border-radius: 5px;
     height: 20rem;
-    width: 60%;
-    padding: 1rem;
+    width: 50%;
+    padding: 2rem;
     gap: 1rem;
-    box-shadow:2px 2px 5px 2px var(--card-boxshadow-color);
+    box-shadow: 2px 2px 5px 2px var(--card-boxshadow-color);
 }
 
 .horizontal-card .card-img-container {
     width: 25rem;
     height: 100%;
-    overflow: hidden;
-    border-radius: 1rem;
 }
 
 .horizontal-card .card-img-container img {
@@ -217,15 +208,15 @@
 }
 
 .horizontal-card .card-body {
-    width: 60%;
-    height: 90%;
-    line-height: 3rem;
-    padding: 1rem;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
 }
 
 .horizontal-card .buttons {
+    width: 100%;
     display: flex;
-    align-items: flex-end;
-    height: 32%;
 }

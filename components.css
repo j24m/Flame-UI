@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+@import "./Components/commonclass.css";
 @import "./Components/alert.css";
 @import "./Components/avatar.css";
 @import "./Components/badge.css";
@@ -9,4 +14,37 @@
 @import "./Components/navigation.css";
 @import "./Components/text-utility.css";
 
+:root {
+    --primary-color: #F65314;
+    --secondary-color: black;
+    --tertiary-color: #8da9bb;
+    --dark-color: #E50914;
+    --light-color: white;
+    --yellow-shade-color: #FF9900;
+    --yellow-shade-color2: #ff7b25;
+    --green-shade-color1: #7CBB00;
+    --green-shade-color2: darkgreen;
+    --blue-shade-color1: #4285F4;
+    --blue-shade-color2: #003399;
+    --pink-shade-color: rgb(231, 64, 92);
+    --red-shade-color: #f7786b;
+    --cream-shade-color: #ffef96;
+    --cream-shade-color2: #8b6f47;
+    --button-primary-color1: #e0876a;
+    --button-primary-color2: #f4a688;
+    --button-floatHover-color: #292F33;
+    --card-boxshadow-color:rgba(0, 0, 0, 0.24);
+    --blur-white-shade-color: rgba(255, 255, 255, 0.5);
+    --text-gray-color: gray;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto Condensed", sans-serif;
+}

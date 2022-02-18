@@ -69,6 +69,9 @@
                     <a class="link" href="./text-utility.html">
                         <li>Text-Utility</li>
                     </a>
+                    <a class="link" href="./modal.html">
+                        <li>Modal</li>
+                    </a>
                 </ul>
         </div>
         <div class="documentation">
@@ -83,10 +86,10 @@
                         <label for="text">
                             Name
                         </label>
-                        
+
                         <input type="text" name="text" autocomplete="name" placeholder="Enter name" />
                     </div>
-                    
+
                     <div class="input-label">
                         <label for="email">
                             Email *
@@ -94,25 +97,26 @@
 
                         <input type="email" name="email" required autocomplete="email" placeholder="Enter email" />
                     </div>
-                    
+
                     <div class="input-label">
                         <label for="password">Password *
                         </label>
 
-                        <input type="password" name="password" autocomplete="current-password" placeholder="Enter password" required value="..."/>
+                        <input type="password" name="password" autocomplete="current-password"
+                            placeholder="Enter password" required value="..." />
                         <label for="password">
                             wrong password, try again
                         </label>
                     </div>
-                    
+
                     <div class="input-label">
                         <label for="number">
                             Number
                         </label>
-                        
+
                         <input type="number" name="number" placeholder="Enter quantity" />
                     </div>
-                    
+
                     <div class="input-label">
                         <label for="date">
                             Date
@@ -120,7 +124,7 @@
 
                         <input type="date" name="date" />
                     </div>
-                    
+
                     <div class="input-label">
                         <label for="file">
                             File
@@ -128,7 +132,7 @@
 
                         <input type="file" name="file" />
                     </div>
-                    
+
                     <div class="input-label">
                         <label for="tel">
                             Phone no
@@ -140,6 +144,23 @@
             </div>
             <div class="code-snippet">
                 <script src="https://gist.github.com/j24m/cd4d82de387d3f750c6eaf2807289e90.js"></script>
+            </div>
+            <div class="component-examples">
+                <div class="radio-input">
+                    <input type="radio" name="radio" /><label for="radio">Radio input field</label>
+                </div>
+
+                <div class="checkbox-input">
+                    <input type="checkbox" name="check" /><label for="check">Check input field</label>
+                </div>
+            </div>
+            <div class="component-examples">
+                <div class="range-input">
+                    <label for="volume">Volume<input type="range" min="0" max="100" value="40" name="volume" step="1"
+                            oninput="vol.value = this.value" />
+                        <output id="vol">40</output>
+                    </label>
+                </div>
             </div>
         </div>
     </div>

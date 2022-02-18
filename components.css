@@ -13,6 +13,7 @@
 @import "./Components/list.css";
 @import "./Components/navigation.css";
 @import "./Components/text-utility.css";
+@import "./Components/modal.css";
 
 :root {
     --primary-color: #F65314;

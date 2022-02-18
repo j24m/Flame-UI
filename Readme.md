@@ -6,12 +6,9 @@
 
  Design your project faster and better.
 
-![Forks](https://img.shields.io/github/forks/j24m
-/
-Flame-UI)
-![Stars](https://img.shields.io/github/stars/j24m
-/
-Flame-UI)
+![Forks](https://img.shields.io/github/forks/j24m/Flame-UI)
+
+![Stars](https://img.shields.io/github/stars/j24m/Flame-UI)
 
 </div>
 

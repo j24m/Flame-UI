@@ -104,7 +104,7 @@
 
                         <input type="password" name="password" autocomplete="current-password"
                             placeholder="Enter password" required value="..." />
-                        <label for="password">
+                        <label id="password" for="password">
                             wrong password, try again
                         </label>
                     </div>
@@ -114,7 +114,7 @@
                             Number
                         </label>
 
-                        <input type="number" name="number" placeholder="Enter quantity" />
+                        <input id="number" type="number" name="number" placeholder="Enter quantity" />
                     </div>
 
                     <div class="input-label">
@@ -156,7 +156,7 @@
             </div>
             <div class="component-examples">
                 <div class="range-input">
-                    <label for="volume">Volume<input type="range" min="0" max="100" value="40" name="volume" step="1"
+                    <label for="slider">Price Filter<input type="range" min="0" max="100" value="40" name="volume" step="1"
                             oninput="vol.value = this.value" />
                         <output id="vol">40</output>
                     </label>

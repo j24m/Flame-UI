@@ -37,10 +37,14 @@
     --card-boxshadow-color:rgba(0, 0, 0, 0.24);
     --blur-white-shade-color: rgba(255, 255, 255, 0.5);
     --text-gray-color: gray;
+    --login-signup-modal-boxshadow-color :#00000042;
+    --modal-container-background-color: #a4a1d3;
+    --Login-signup-modal-bg-img-linear-gradient-color: #000064cc;
 
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }

@@ -1,7 +1,8 @@
-.img-container {
-    width: 200px;
-    height: 200px;
-    border: solid var(--secondary-color);
+.img-container{
+    width:20rem;
+    height:20rem;
+    border:solid var(--secondary-color);
+
 }
 
 .img-container img {

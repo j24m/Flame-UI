@@ -28,6 +28,28 @@
     color:var(--dark-color);
 }
 
+.radio-input,.checkbox-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 1rem;
+    padding:1rem;
+}
+
+.radio-input input, .checkbox-input input {
+    height: 2rem;
+    width:2rem;
+}
+
+.range-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    gap:2rem;
+}
+
 
 
 

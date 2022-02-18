@@ -1,0 +1,121 @@
+.modal-container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--modal-container-background-color);
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.modal-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 35rem;
+    height: 50rem;
+    box-shadow: 0 0 40px 20px var(--login-signup-modal-boxshadow-color);
+    perspective: 100rem;
+}
+
+.inner-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(var(--Login-signup-modal-bg-img-linear-gradient-color),var(--Login-signup-modal-bg-img-linear-gradient-color)
+    ), url(../Images/Imgcmp.jpg);
+    padding: 5.5rem;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.modal-card h2 {
+    font-weight: normal;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--light-color);
+    margin: 6px 0;
+    height: 3.2rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    outline: none;
+    text-align: center;
+    color: var(--light-color);
+}
+
+.form-input-box::placeholder {
+    color: var(--light-color);
+    font-size: 1.2rem;
+}
+
+.submit-btn,
+.btn-new-here {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--light-color);
+    margin: 3.5rem 0 1rem;
+    height: 3.2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    outline: none;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.submit-btn {
+    position: relative;
+}
+
+.submit-btn::after {
+    content: '\27a4';
+    color: var(--button-floatHover-color);
+    line-height: 3.2rem;
+    font-size: 1.7rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    background-color: var(--light-color);
+    position: absolute;
+    right: -6px;
+    top: -1px;
+}
+
+.checkbox-remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.btn-new-here {
+    margin-top: 7rem;
+}
+
+.link-forgot-password {
+    color: var(--light-color);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+}

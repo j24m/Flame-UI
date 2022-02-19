@@ -1,22 +1,22 @@
-.img-container{
+.cl-img-cmp-container .img-container{
     width:20rem;
     height:20rem;
     border:solid var(--secondary-color);
 
 }
 
-.img-container img {
+.cl-img-cmp-container .img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.img-round {
+.cl-img-cmp-container .img-round {
     border-radius: 50%;
     overflow: hidden;
 }
 
-.img-responsive img {
+.cl-img-cmp-container .img-responsive img {
     width: 100%;
     height: auto;
     aspect-ratio: 9/16;

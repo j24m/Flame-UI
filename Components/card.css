@@ -73,7 +73,7 @@
 
 .badge-on-card {
     position: absolute;
-    width: 25%;
+    width: 40%;
     text-align: center;
     background-color: var(--dark-color);
     color: var(--light-color);

@@ -1,4 +1,5 @@
 .home-page-content {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,13 +33,12 @@
     margin-bottom: 2rem;
 }
 
-.btn-homepage {
+.home-page-content .btn-homepage {
     display: flex;
     gap: 2rem;
-    padding: 2rem;
 }
 
-.btn-homepage .btn {
+.home-page-content .btn-homepage .btn {
     padding: 2rem;
     width: 20rem;
     border-radius: 0.5rem;
@@ -46,13 +46,12 @@
     border: solid var(--primary-color)
 }
 
-.btn-homepage .btn {
+.home-page-content .btn-homepage .btn {
     color: var(--primary-color);
 }
 
-.btn-homepage .btn:hover {
+.home-page-content .btn-homepage .link:hover {
     color: var(--primary-color);
-    border: solid var(--primary-color);
-    transform: scale(1.01);
+    transform: scale(1);
     cursor: pointer;
 }

@@ -84,7 +84,10 @@
 }
 
 .submit-btn {
+    background-color: var(--light-color);
+    color: var(--secondary-color);
     position: relative;
+    transition: 0.2s;
 }
 
 .submit-btn::after {
@@ -98,7 +101,14 @@
     background-color: var(--light-color);
     position: absolute;
     right: -6px;
-    top: -1px;
+    top:-2px;
+    border:1px solid var(--secondary-color);
+}
+
+.submit-btn:hover{
+    transform: translateY(2px) scale(1.1);
+    font-weight: bold;
+    border: 3px solid var(--secondary-color);
 }
 
 .checkbox-remember-me {
@@ -110,6 +120,14 @@
 
 .btn-new-here {
     margin-top: 7rem;
+    transition: 0.2s;
+}
+
+.btn-new-here:hover{
+    transform: translateY(5px) scale(1.1);
+    font-weight: bold;
+    color:var(--dark-color);
+    border: 3px solid var(--dark-color);
 }
 
 .link-forgot-password {

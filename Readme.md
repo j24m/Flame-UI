@@ -40,9 +40,6 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 - [Navigation](#navigation)
 - [Text-Utility](#text-utility)
 - [Modal](#modal)
-- [Rating](#rating)
-- [Toast](#toast)
-- [Typography](#typography)
 
 ---
 
@@ -164,7 +161,7 @@ https://flameui.netlify.app/components/navigation.html
 
  Text Utilities contain the style for heading, sub heading, topic heading, paragraphs, center text, small text etc that you can use for giving headings or paragraphs.
 
-You will find the following types of _Navigation_ on 
+You will find the following types of _Text-Utilities_ on 
 https://flameui.netlify.app/components/text-utility.html
 
 ---

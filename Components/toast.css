@@ -1,0 +1,98 @@
+.toast-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+    width: 40rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    position: fixed;
+    bottom: 6rem;
+    animation:fadein 0.5s ;
+}
+/* fadeout 0.5s 0.2s */
+
+   @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 6rem; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 6rem; opacity: 1;}
+  }
+  
+  /* @-webkit-keyframes fadeout {
+    from {bottom: 6rem; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 6rem; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  } */
+
+  .toast-left {
+    color: var(--light-color);
+    background-color: var(--button-floatHover-color);
+    left: 15rem;
+}
+
+  .toast-center{
+    color: var(--green-shade-color2);
+    border:solid var(--green-shade-color2);
+    background-color:var(--green-shade-color3);
+    left: 38%;
+}
+
+.toast-right {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border: solid var(--dark-color);
+    right:10rem;
+}
+
+.retry:hover,.undo:hover,.tryAgain:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.btn-icon {
+    text-align: center;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    transition: 1s ease-in-out;
+
+}
+
+.btn-icon:hover{
+    cursor:pointer;
+    background-color: var(--text-gray-color);
+    transform: rotateY(360deg);
+}
+
+.btn-success{
+    background:none;
+    border: none;
+    color: var(--green-shade-color2);
+}
+
+.btn-success:hover{
+    border:1px solid var(--green-shade-color2);
+    background: none;
+}
+
+.btn-error{
+    background:none;
+    border: none;
+    color: var(--dark-color);
+}
+
+.btn-error:hover{
+    border:1px solid var(--dark-color);
+    background: none;
+}
+

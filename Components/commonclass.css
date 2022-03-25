@@ -155,3 +155,11 @@ html {
     gap:2rem;
 } 
  
+.btn-toastShow {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}

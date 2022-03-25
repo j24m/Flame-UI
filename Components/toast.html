@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flame UI | Badge</title>
+    <title>Flame UI | Text-Utility</title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="./badge.css">
     <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./toast.css">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                     <a class="link" href="./button.html">
                         <li>Button</li>
                     </a>
-                    <a class="link link-active" href="#">
+                    <a class="link" href="./badge.html">
                         <li>Badge</li>
                     </a>
                     <a class="link" href="./card.html">
@@ -72,70 +72,79 @@
                     <a class="link" href="./modal.html">
                         <li>Modal</li>
                     </a>
-                    <a class="link" href="./toast.html">
+                    <a class="link link-active" href="#">
                         <li>Toast</li>
-                    </a>
-                    <a class="link" href="./grid.html">
-                        <li>Grid</li>
                     </a>
                 </ul>
         </div>
         <div class="documentation">
-            <h1 class="documentation-component-main-heading">BADGE</h1>
-            <p class="component-info">Badges are small circles, positioned either at top-right or bottom-right of the
-                parent component. Badge can be used to display numbers, online / offline status, depending on where they
-                are used.
-            </p>
-            <h3 class="component-info">Badge on Avatar</h3>
-            <div class="component-examples">
-                <div class="badge-container">
-                    <div class="avatar avatar-xx-lg">
-                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <div class="badge badge-active">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-sm">
-                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <div class="badge badge-dnd">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-x-sm">
-                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <div class="badge badge-idle">
-                        </div>
-                    </div>
-                </div>
+            <h1 class="documentation-component-main-heading">Toast</h1>
+            <!-- buttons to show toast start here -->
+            <div class="btn-toastShow">
+                <button id="btn-toast-left" class="btn btn-primary">Toast-left</button>
+                <button id="btn-toast-center" class="btn btn-primary">Toast-right</button>
+                <button id="btn-toast-right" class="btn btn-primary">Toast-center</button>
+            </div>
+            <!-- buttons to show toast end here -->
+
+            <!-- toast left starts here -->
+            <div id="toast-body-left" class="toast-container toast-left">
+                <div>Can't send photo.</div>
+                <div class="retry">RETRY</div>
+                <button id="btn-left-dismiss" class="btn-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="22" height="22"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m15.5 15.5l-10-10zm0-10l-10 10"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- toast left ends here -->
+
+
+            <!-- toast center starts here -->
+            <div id="toast-body-center" class="toast-container toast-center">
+                <div>Order has been placed successfully.</div>
+
+                <div class="undo">Undo.</div>
+                <button id="btn-center-dismiss" class="btn-icon btn-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="22" height="22"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m15.5 15.5l-10-10zm0-10l-10 10"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- toast center ends here -->
+
+            <!-- toast right starts here -->
+            <div id="toast-body-right" class="toast-container toast-right">
+                <div>Oops! Something went wrong.</div>
+                <div class="tryAgain">Try Again.</div>
+                <button id="btn-right-dismiss" class="btn-icon btn-error">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="22" height="22"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m15.5 15.5l-10-10zm0-10l-10 10"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- toast right ends here -->
+
+
+            <div class="code-snippet">
+                <script src="https://gist.github.com/j24m/7c4e90974f2e16cfbabe401034fecf55.js"></script>
             </div>
             <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/2979047765abeabc34c8a3620349032a.js"></script>
-            </div>
-            <h3 class="component-info">Badge on Icon</h3>
-            <div class="component-examples">
-                <div class="badge-container">
-                    <div class="badge-on-icon">
-                        <i class="bi bi-cart"></i>
-                        <div class="badge badge-icon">0</div>
-                    </div>
-                    <div class="badge-on-icon">
-                        <i class="bi bi-whatsapp"></i>
-                        <div class="badge badge-icon">9+</div>
-                    </div>
-                    <div class="badge-on-icon">
-                        <i class="bi bi-envelope-fill"></i>
-                        <div class="badge badge-icon">10</div>
-                    </div>
-                    <div class="badge-on-icon">
-                        <i class="bi bi-heart-fill"></i>
-                        <div class="badge badge-icon">0</div>
-                    </div>
-                </div>
-            </div>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/f6fb556a85c8c87f8c5301cc58e708cc.js"></script>
+                <script src="https://gist.github.com/j24m/ccebd8068fdbc41cf98b19ada513669f.js"></script>
             </div>
         </div>
-    </div>
 
+    </div>
+    <script src="./toast.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,27 @@
+.grid-container{
+    padding:1rem;
+}
+.grid-50-50{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin:auto;
+}
+
+.grid-70-30{
+    display:grid;
+    grid-template-columns: 7fr 3fr;
+    grid-gap: 2rem;
+}
+
+.grid-equal{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 2rem;
+}
+
+.documentation .grid-container img {
+    object-fit: cover;
+    height:28rem;
+    border: solid var(--secondary-color);
+}

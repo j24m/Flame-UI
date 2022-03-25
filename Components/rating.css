@@ -1,6 +1,9 @@
-.star-widget {
+.star-rating-container {
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top:20rem;
+    padding: 1rem;
 }
 
 .star-widget input{

@@ -16,8 +16,12 @@
     overflow: hidden;
 }
 
-.cl-img-cmp-container .img-responsive img {
+.img-responsive-container {
+    width:40%;
+}
+
+.img-responsive {
     width: 100%;
-    height: auto;
+    object-fit: contain;
     aspect-ratio: 9/16;
 }

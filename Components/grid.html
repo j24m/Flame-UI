@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flame UI | Badge</title>
+    <title>Flame UI | Text-Utility</title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="./badge.css">
     <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./grid.css">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                     <a class="link" href="./button.html">
                         <li>Button</li>
                     </a>
-                    <a class="link link-active" href="#">
+                    <a class="link" href="./badge.html">
                         <li>Badge</li>
                     </a>
                     <a class="link" href="./card.html">
@@ -66,7 +66,7 @@
                     <a class="link" href="./navigation.html">
                         <li>Navigation</li>
                     </a>
-                    <a class="link" href="./text-utility.html">
+                    <a class="link link-active" href="#">
                         <li>Text-Utility</li>
                     </a>
                     <a class="link" href="./modal.html">
@@ -81,61 +81,39 @@
                 </ul>
         </div>
         <div class="documentation">
-            <h1 class="documentation-component-main-heading">BADGE</h1>
-            <p class="component-info">Badges are small circles, positioned either at top-right or bottom-right of the
-                parent component. Badge can be used to display numbers, online / offline status, depending on where they
-                are used.
-            </p>
-            <h3 class="component-info">Badge on Avatar</h3>
-            <div class="component-examples">
-                <div class="badge-container">
-                    <div class="avatar avatar-xx-lg">
-                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <div class="badge badge-active">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-sm">
-                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <div class="badge badge-dnd">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-x-sm">
-                        <img src="../Images/pingu.jpg" alt="penguin-w-headphones">
-                        <div class="badge badge-idle">
-                        </div>
-                    </div>
+            <h1 class="documentation-component-main-heading">Grid</h1>
+            <h2 class="component-info">50-50 Grid :</h2>
+            <div class="grid-container">
+                <div class="grid-50-50">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
                 </div>
-            </div>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/2979047765abeabc34c8a3620349032a.js"></script>
-            </div>
-            <h3 class="component-info">Badge on Icon</h3>
-            <div class="component-examples">
-                <div class="badge-container">
-                    <div class="badge-on-icon">
-                        <i class="bi bi-cart"></i>
-                        <div class="badge badge-icon">0</div>
-                    </div>
-                    <div class="badge-on-icon">
-                        <i class="bi bi-whatsapp"></i>
-                        <div class="badge badge-icon">9+</div>
-                    </div>
-                    <div class="badge-on-icon">
-                        <i class="bi bi-envelope-fill"></i>
-                        <div class="badge badge-icon">10</div>
-                    </div>
-                    <div class="badge-on-icon">
-                        <i class="bi bi-heart-fill"></i>
-                        <div class="badge badge-icon">0</div>
-                    </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/j24m/b12323711000cabf5332d77cd996aa26.js"></script>
                 </div>
-            </div>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/f6fb556a85c8c87f8c5301cc58e708cc.js"></script>
+            <h2 class="component-info">70-70 Grid :</h2>
+
+                <div class="grid-70-30">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/j24m/07cceed710deea2db14253e56299b90b.js"></script>
+                </div>
+ 
+            <h2 class="component-info">Three equal grids :</h2>
+
+                <div class="grid-equal">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/j24m/966a92d5c1d314092b1eb664fc62bf07.js"></script>
+                </div>
+ 
             </div>
         </div>
     </div>
-
 </body>
-
 </html>

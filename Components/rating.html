@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./rating.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         <div class="side-bar">
             <h3 class="sidebar-cmp-heading">Quick Installation</h3>
             <ul class="ul">
-                <a class="link link-active" href="#">
+                <a class="link" href="./getstarted.html">
                     <li>Get Started</li>
                 </a>
                 <h3 class="sidebar-cmp-heading">Components</h3>
@@ -65,7 +66,7 @@
                     <a class="link" href="./navigation.html">
                         <li>Navigation</li>
                     </a>
-                    <a class="link" href="./text-utility.html">
+                    <a class="link link-active" href="#">
                         <li>Text-Utility</li>
                     </a>
                     <a class="link" href="./modal.html">
@@ -83,32 +84,30 @@
                 </ul>
         </div>
         <div class="documentation">
-            <h1 class="documentation-component-main-heading">
-                INSTALLATION
-            </h1>
-            <h2 class="component-info">
-                1.LINK IN HTML
-            </h2>
-            <p class="component-info">
-                To use Flame UI components in your projects, Copy and paste the below CDN link in the "head" tag of your
-                html, above all other style sheets.
-            </p>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/e51e44083fa87ca807810698da1df3d6.js"></script>
-            </div>
+            <h1 class="documentation-component-main-heading">Rating</h1>
+            <div class="component-examples">
+                <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1" class="fas fa-star"></label>
+                
+                </div>
+                </div>
 
-            <h2 Class="component-info">2. IMPORT IN CSS</h2>
-            <p class="component-info">
-                You can also import our css file within your existing css file. Just copy and paste below link in top of
-                your existing css file.
-            </p>
             <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/9b6d6bba601bce2b9df4262bd83b779d.js"></script>
+                <script src="https://gist.github.com/j24m/3448306cd90a441d5b48c15b52e7a133.js"></script>
             </div>
-
 
         </div>
     </div>
+    <script src="./rating.js"></script>
 </body>
 
 </html>

@@ -89,12 +89,15 @@
 
 .rate-review {
   display: flex;
-  justify-content: space-between;
   gap: 1rem;
   align-items: baseline;
   margin-bottom: 1rem;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.rate {
+  font-size: 1.5rem;
 }
 
 .star-symbol {

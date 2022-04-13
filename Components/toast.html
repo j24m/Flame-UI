@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flame UI | Text-Utility</title>
+    <title>Flame UI | Toast</title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./toast.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         <div class="side-bar">
             <h3 class="sidebar-cmp-heading">Quick Installation</h3>
             <ul class="ul">
-                <a class="link link-active" href="#">
+                <a class="link" href="./getstarted.html">
                     <li>Get Started</li>
                 </a>
                 <h3 class="sidebar-cmp-heading">Components</h3>
@@ -71,7 +72,7 @@
                     <a class="link" href="./modal.html">
                         <li>Modal</li>
                     </a>
-                    <a class="link" href="./toast.html">
+                    <a class="link link-active" href="#">
                         <li>Toast</li>
                     </a>
                     <a class="link" href="./grid.html">
@@ -80,35 +81,77 @@
                     <a class="link" href="./rating.html">
                         <li>Rating</li>
                     </a>
+                    
                 </ul>
         </div>
         <div class="documentation">
-            <h1 class="documentation-component-main-heading">
-                INSTALLATION
-            </h1>
-            <h2 class="component-info">
-                1.LINK IN HTML
-            </h2>
-            <p class="component-info">
-                To use Flame UI components in your projects, Copy and paste the below CDN link in the "head" tag of your
-                html, above all other style sheets.
-            </p>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/e51e44083fa87ca807810698da1df3d6.js"></script>
+            <h1 class="documentation-component-main-heading">Toast</h1>
+            <!-- buttons to show toast start here -->
+            <div class="btn-toastShow">
+                <button id="btn-toast-left" class="btn btn-primary">Toast-left</button>
+                <button id="btn-toast-center" class="btn btn-primary">Toast-right</button>
+                <button id="btn-toast-right" class="btn btn-primary">Toast-center</button>
             </div>
+            <!-- buttons to show toast end here -->
 
-            <h2 Class="component-info">2. IMPORT IN CSS</h2>
-            <p class="component-info">
-                You can also import our css file within your existing css file. Just copy and paste below link in top of
-                your existing css file.
-            </p>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/9b6d6bba601bce2b9df4262bd83b779d.js"></script>
+            <!-- toast left starts here -->
+            <div id="toast-body-left" class="toast-container toast-left">
+                <div>Can't send photo.</div>
+                <div class="retry">RETRY</div>
+                <button id="btn-left-dismiss" class="btn-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="22" height="22"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m15.5 15.5l-10-10zm0-10l-10 10"></path>
+                    </svg>
+                </button>
             </div>
+            <!-- toast left ends here -->
 
 
+            <!-- toast center starts here -->
+            <div id="toast-body-center" class="toast-container toast-center">
+                <div>Order has been placed successfully.</div>
+
+                <div class="undo">Undo.</div>
+                <button id="btn-center-dismiss" class="btn-icon btn-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="22" height="22"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m15.5 15.5l-10-10zm0-10l-10 10"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- toast center ends here -->
+
+            <!-- toast right starts here -->
+            <div id="toast-body-right" class="toast-container toast-right">
+                <div>Oops! Something went wrong.</div>
+                <div class="tryAgain">Try Again.</div>
+                <button id="btn-right-dismiss" class="btn-icon btn-error">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="22" height="22"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="m15.5 15.5l-10-10zm0-10l-10 10"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- toast right ends here -->
+
+
+            <div class="code-snippet">
+                <script src="https://gist.github.com/j24m/7c4e90974f2e16cfbabe401034fecf55.js"></script>
+            </div>
+            <div class="code-snippet">
+                <script src="https://gist.github.com/j24m/ccebd8068fdbc41cf98b19ada513669f.js"></script>
+            </div>
         </div>
+
     </div>
+    <script src="./toast.js"></script>
 </body>
 
 </html>

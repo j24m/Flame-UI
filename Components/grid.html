@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flame UI | Text-Utility</title>
+    <title>Flame UI | Grid</title>
     <script src="https://kit.fontawesome.com/d3026d29a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../gist.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../components.css">
+    <link rel="stylesheet" href="./grid.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         <div class="side-bar">
             <h3 class="sidebar-cmp-heading">Quick Installation</h3>
             <ul class="ul">
-                <a class="link link-active" href="#">
+                <a class="link" href="./getstarted.html">
                     <li>Get Started</li>
                 </a>
                 <h3 class="sidebar-cmp-heading">Components</h3>
@@ -74,7 +75,7 @@
                     <a class="link" href="./toast.html">
                         <li>Toast</li>
                     </a>
-                    <a class="link" href="./grid.html">
+                    <a class="link link-active" href="./grid.html">
                         <li>Grid</li>
                     </a>
                     <a class="link" href="./rating.html">
@@ -83,32 +84,39 @@
                 </ul>
         </div>
         <div class="documentation">
-            <h1 class="documentation-component-main-heading">
-                INSTALLATION
-            </h1>
-            <h2 class="component-info">
-                1.LINK IN HTML
-            </h2>
-            <p class="component-info">
-                To use Flame UI components in your projects, Copy and paste the below CDN link in the "head" tag of your
-                html, above all other style sheets.
-            </p>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/e51e44083fa87ca807810698da1df3d6.js"></script>
+            <h1 class="documentation-component-main-heading">Grid</h1>
+            <h2 class="component-info">50-50 Grid :</h2>
+            <div class="grid-container">
+                <div class="grid-50-50">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/j24m/b12323711000cabf5332d77cd996aa26.js"></script>
+                </div>
+            <h2 class="component-info">70-70 Grid :</h2>
+
+                <div class="grid-70-30">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/j24m/07cceed710deea2db14253e56299b90b.js"></script>
+                </div>
+ 
+            <h2 class="component-info">Three equal grids :</h2>
+
+                <div class="grid-equal">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                    <img class="img-responsive" src="https://picsum.photos/500/400" alt="">
+                </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/j24m/966a92d5c1d314092b1eb664fc62bf07.js"></script>
+                </div>
+ 
             </div>
-
-            <h2 Class="component-info">2. IMPORT IN CSS</h2>
-            <p class="component-info">
-                You can also import our css file within your existing css file. Just copy and paste below link in top of
-                your existing css file.
-            </p>
-            <div class="code-snippet">
-                <script src="https://gist.github.com/j24m/9b6d6bba601bce2b9df4262bd83b779d.js"></script>
-            </div>
-
-
         </div>
     </div>
 </body>
-
 </html>

@@ -22,9 +22,13 @@
     --dark-color: #E50914;
     --light-color: white;
     --yellow-shade-color: #FF9900;
+    --yellow-shade-color1: #fd4;
     --yellow-shade-color2: #ff7b25;
+    --yellow-shade-color3: #fe7;
+    --star-rating-text-shadow-color: #957;
     --green-shade-color1: #7CBB00;
     --green-shade-color2: darkgreen;
+    --green-shade-color3: lightgreen;
     --blue-shade-color1: #4285F4;
     --blue-shade-color2: #003399;
     --pink-shade-color: rgb(231, 64, 92);
@@ -40,6 +44,8 @@
     --login-signup-modal-boxshadow-color :#00000042;
     --modal-container-background-color: #a4a1d3;
     --Login-signup-modal-bg-img-linear-gradient-color: #000064cc;
+    --slate-blue-shade-color1: rgb(117, 108, 179);
+    --slate-blue-shade-color2: rgb(45, 37, 97);
 
 }
 
